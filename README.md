@@ -12,7 +12,7 @@ class Me:
     def languages(self) -> Dict[str, List[str]]:
         return {
             "human": ["English", "French"],
-            "programming": ["Python", "Go", "JavaScript", "SQLI", "PHP"]
+            "programming": ["Python", "Go", "Next.js"]
         }
 
     def current_location(self) -> str:
@@ -23,7 +23,7 @@ class Me:
 
     def currently(self) -> Dict[str, List[str]]:
         return {
-            "studying": ["React Native + Next.js", "Rust", "Cybersecurity"],
+            "studying": ["React Native + Next.js", "Rust", "Cybersecurity", "C"],
             "tinkering": ["AI/ML", "Learning Solidity"]
         }
 ```
