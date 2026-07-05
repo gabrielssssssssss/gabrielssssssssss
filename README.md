@@ -5,7 +5,7 @@ from typing import List, Dict
 @dataclass
 class Me:
     name: str = "Gabriel"
-    age: int = 16
+    age: int = 17
     education: List[str] = field(default_factory=lambda: ["High School"])
     hobbies: List[str] = field(default_factory=lambda: ["Computer Science", "Fashion", "Music"])
 
